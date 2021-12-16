@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+</meta>
+</head>
+<body bgcolor="pink">
+<input type='button' value='Добро пожаловать' onclick='laba2_1()'/>
+<input type='button' value='Строки и числа' onclick='laba2_2()'/>
+<input type='button' value='Уравнение с двумя неизвестными' onclick='laba2_3()'/>
+<input type='button' value='Значение правильное/неправильное' onclick='laba2_4()'/>
+<input type='button' value='Какое число?' onclick='laba2_4_2()'/>
+<input type='button' value='Какое число больше?' onclick='laba2_5()'/>
+<input type='button' value='Футбольный матч' onclick='laba2_5_2()'/>
+<input type='button' value='День недели' onclick='laba2_6()'/>
+<input type='button' value='Ошибка' onclick='laba2_7()'/>
+<script type='text/javascript'>
+function laba2_1()
+{
+alert("Вас приветствует учебный центр");
+let nickname = prompt("Введите имя");
+alert("Добро пожаловать на наши курсы, "+nickname);
+if(confirm("Хотите стать Web-дизайнером?"))
+alert("Учите стили CSS и JavaScript");
+else
+alert("Упускаете время!");
+}
+function laba2_2()
+{
+alert("Результат сложения чисел 10 и 5:");alert(10+5);
+alert("Результат сложения строк 10 и 5:");alert("10"+"5");
+alert("Результат сложения числа 22 и строки 5:");alert(22+"5");
+alert("Результат сложения строки 22 и числа 5:");alert("22"+5);
+alert("В итоге - Результатом сложения строки и числа всегда будет строка. ");
+}
+function laba2_3()
+{
+let x=5;
+let y=9;
+let num1=((7*y)/(x+3)*125);
+alert("при x=5 и y=9 ((7*y)/(x+3)*125)="+num1);
+let num2=((x-1)*(y+3));
+alert("при x=5 и y=9 (x-1)*(y+3)="+num2);
+let num3=num1%num2;
+alert(num3);
+}
+function laba2_4()
+{
+let num4;
+num4= prompt("Введите любое число");
+if(((num4<20)||(num4>40))&&(num4!=15)&&(num4%5==0))
+alert("Правильное значение");
+else
+alert("Неправильное значение");
+}
+function laba2_4_2()
+{
+let num4;
+num4= prompt("Введите любое число");
+if(((num4<10)||(num4>100))&&(num4!=1)&&(num4%2==0))
+alert("Число меньше 10 или больше 100 и не равно 1 и остаток при делении на 2=0");
+else
+alert("Число больше 10 или меньше 100 или равно 1 или остаток при делении на 2 не равен 0");
+}
+function laba2_5()
+{
+let s1=prompt("Введите первое число: ");
+let num1 = parseInt(s1,10);
+if(isNaN(num1))
+{
+alert("Число попросили эм...")
+}
+else {
+let s2 = prompt("Введите второе число:");
+let num2 = parseInt(s2,10);
+if(isNaN(num2))
+{
+alert("Снова не то...")
+}
+else {
+if(num1>num2) alert("Первое число больше второго числа");
+else
+if(num1<num2)
+alert("Второе число больше первого");
+else
+alert("Введённые числа равны");
+}
+}
+}
+function laba2_5_2()
+{
+let s1=prompt("Введите колличество голов, забитых 1 командой");
+let num1 = parseInt(s1,10);
+if(isNaN(num1))
+{
+alert("Ну попросили же!")
+}
+else {
+let s2 = prompt("Введите колличество голов, забитых 2 командо");
+let num2 = parseInt(s2,10);
+if(isNaN(num2))
+{
+alert("Введите пожалуйста количество!!!")
+}
+else {
+if(num1>num2) alert("Победа 1 команды");
+else
+if(num1<num2)
+alert("Победа 2 команды");
+else
+alert("Ничья");
+}
+}
+}
+function laba2_6()
+{
+let whatday;
+whatday=prompt("Введите номер дня недели:");
+switch(whatday)
+{
+case "1":
+alert("Сегодня понедельник.");
+break;
+case "2":
+alert("Сегодня вторник.");
+break;
+case "3":
+alert("Сегодня среда.");
+break;
+case "4":
+alert("Сегодня четверг.");
+break;
+case "5":
+alert("Сегодня пятница.");
+break;
+case "6":
+alert("Сегодня суббота.");
+break;
+case "7":
+alert("Сегодня воскресенье.");
+break;
+default:
+alert("Ты глупый, в неделе 7 дней!");
+}
+}
+function laba2_7()
+{
+    try{
+    oshibka;}
+    catch(error){
+    alert("Я люблю маму")
+    console.log(error)}
+}
+</script>
+</body>
+</html>

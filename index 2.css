@@ -1,0 +1,47 @@
+@font-face {
+    src: url("sfns_display_thin.woff");
+    font-family: "sfns_display_thin";
+}
+body {
+    background-image: linear-gradient(to right bottom, rgb(235, 188, 196) 45%, rgb(224, 137, 151));
+}
+h2 {
+    text-align: center;
+    font-family: 'sfns_display_thin';
+    margin-bottom: 66px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+p {
+    display: inline-block;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+a:hover {
+    color: rgb(88, 47, 54);
+}
+.all {
+    margin-left: 100px;
+}
+.all div {
+    background-color: rgb(197, 125, 137);
+    border: 3px solid rgb(109, 55, 64);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 650px;
+    height: 100px;
+    display: inline-block;
+}
+h4 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+p, h4 {
+    padding-left: 10px;
+    font-family: 'sfns_display_thin';
+}

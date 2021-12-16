@@ -1,0 +1,20 @@
+
+.car{
+    color:red;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+.lim{
+    color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+.cip{
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22pt;   
+}
+h1, h2, h3{
+    color:purple;
+    font-family: 'Monotype Corsiva';
+}

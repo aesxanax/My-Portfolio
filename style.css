@@ -1,0 +1,235 @@
+
+@font-face {
+    font-family: Caveat;
+  src: url(Caveat.woff);
+      }
+          @font-face {font-family: Exo2;
+  src:url(Exo2.woff);
+      }
+          @font-face {
+            font-family: sfns_display_thin;
+  src: url(sfns_display_thin.woff);
+      }
+      h1{
+        font-family: 'sfns_display_thin';
+        margin-top:200px;
+        text-align: center;
+        font-size:150px;
+      }
+    h2{
+      font-family: 'sfns_display_thin';
+      color:skyblue;
+      font-size: 60px;
+      margin-top: 380px;
+      margin-left: 150px;
+    }
+    h3{
+      font-family: 'sfns_display_thin';  
+    margin-top:350px;
+    margin-left:270px;
+    font-size: 35px;
+    }
+    .nya{
+      font-family: 'sfns_display_thin';
+      font-size: 30px;  
+      margin-right: 300px;
+      margin-left: 500px;
+    }
+    .p1
+    {
+      margin-top: -40px;
+      float:left;
+     width: 315px;
+     height: 500px;
+     border-radius: 17px;
+     margin-left: 150px;
+     margin-bottom: 100px;
+    }
+    .about{
+      font-family:'sfns_display_thin';
+      font-size: 30px;  
+      margin-left: 500px;
+      margin-right: 100px;
+    }
+    html{
+      scroll-behavior: smooth;
+    }
+  .header {
+    margin-left: 1400px;
+    margin-top: 30px;
+    position: fixed;
+    }
+    .inst {
+      width: 40px;
+      height: 40px;
+      display: block;
+      margin-top: 20px;
+      cursor: pointer;
+      }
+      .vk {
+      width: 40px;
+      height: 40px;
+      display: block;
+      margin-top: 50px;
+      cursor: pointer;
+      }
+     .vk:hover, .inst:hover {
+      transform: scale(1.5);
+      }
+      .jsNhtml a {
+        color: white;
+        }
+        .js {
+        border: 3px solid rgb(130, 182, 230);
+        background-color: rgb(130, 182, 230);
+        border-radius: 10px;
+        width: 300px;
+        height: 100px;
+        display: inline-block;
+        transition: background-color 1s linear;
+        transition: border 1s linear;
+        transition: color 0.8s linear;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        }
+        .js p {
+        padding-left: 10px;
+        }
+        .js1p {
+        text-decoration: underline;
+        }
+        .jsNhtml {
+        margin-left: 80px;
+        margin-top: 90px;
+        display: grid;
+        grid-template-rows: 110px 110px;
+        grid-template-columns: 30px 300px;
+        grid-gap: 10px;
+        }
+        .htmlNcss {
+        border: 3px solid rgb(130, 182, 230);
+        background-color: rgb(130, 182, 230);
+        border-radius: 10px;
+        width: 300px;
+        height: 100px;
+        display: inline-block;
+        transition: background-color 1s linear;
+        transition: border 1s linear;
+        transition: color 0.8s linear;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        }
+        .line {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-color: white;
+        border-radius: 15px;
+        }
+        .htmlNcss p {
+        padding-left: 10px;
+        }
+        .html1p {
+        text-decoration: underline;
+        }
+        .js1p, .html1p {
+        font-family: "sfns_display_thin";
+        }
+        .js2p, .html2p {
+        font-family: "sfns_display_thin";
+        padding-top: 10px;
+        font-weight: bold;
+        }
+        .plus, .inst {
+        width: 40px;
+        height: 40px;
+        display: block;
+        margin-top: 20px;
+        cursor: pointer;
+        }
+        .vk {
+        width: 40px;
+        height: 40px;
+        display: block;
+        margin-top: 80px;
+        cursor: pointer;
+        }
+        .plus:hover, .vk:hover, .inst:hover {
+        transform: scale(1.5);
+        }
+        .header {
+        margin-left: 1400px;
+        margin-top: 30px;
+        position: fixed;
+        }
+        .js:hover {
+        background-color: rgb(13, 84, 112);
+        border: 3px solid rgb(13, 84, 112);
+        color: white;
+        }
+        .htmlNcss:hover {
+        background-color: rgb(13, 84, 112);
+        border: 3px solid rgb(13, 84, 112);
+        color: white;
+        }
+        form{
+          background-color: rgb(130, 182, 230);
+          margin-top:400px;
+          margin-left: 460px;
+          margin-bottom: 80px;
+          width: 500px;
+          font-size: 1.2em;
+          padding: 20px;
+          box-shadow: 0 0 20px rgb(130, 182, 240);
+          border-radius: 10px;
+          border: 3px solid rgb(130, 182, 230);
+      }
+      div{
+          margin: 20px;
+          font-family: "sfns_display_thin"
+      }
+      label{
+          display:inline-block;
+          width: 250px;
+          margin: auto;
+      }
+      input[type="text"], input[type="email"]{
+          background-color: white;
+          color: black;
+          box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+          border-radius: 10px;
+
+      }
+      input[type="submit"]{
+          margin-top: 20px;
+          background-color: white;
+          box-shadow: 0 0 4px white;
+          color: black;
+          padding: 7px;
+          border-radius: 7px;
+      }
+      .button1{
+          margin-left: 225px;
+      }
+      input[type="text"]:focus{
+          background-color: white;
+      }
+      .yum{
+          display: inline-block;
+      }
+      .yim{
+        display: inline-block;
+      }
+      select{
+          margin-left: -5px;
+      }
+      h4{
+        margin-left: 40px;
+        font-family:'sfns_display_thin';
+        font-size: 30px;  
+      }

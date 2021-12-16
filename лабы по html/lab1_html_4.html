@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Оформить заказ</title>
+    <style>
+        form {
+            width: 90%;
+            margin-left: 5%;
+            padding: 30px;
+            text-align: center;
+        }
+        table {
+            border: 3px solid pink;
+            text-align: left;
+            width: 50%;
+            margin-left: 25%;
+            padding: 20px;
+            border-collapse:separate; 
+            border-spacing: 50px 30px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="1">
+        <h1>Сайт по продаже вареников</h1>
+        <table>
+            <tr>
+                <td><span class="labelname">Ваше имя:</span></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><span class="labelname">Ваш телефон:</span></td>
+                <td><input type="tel"> </td>
+            </tr>
+            <tr>
+                <td><span class="labelname">Ваша почта:</span></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td><span class="labelname">адрес:<span</td>
+                <td><textarea cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><span class="labelname" >Способ оплаты</span></td>
+                <td style="text-align: left; padding-left: 20%;"><input type="radio" name="payment_type" id="payment_ruble"> <label for="payment_ruble">Наличные</label> <br>
+                    <input type="radio" name="payment_type" id="payment_dollar"> <label for="payment_dollar">Банковская карта</label><br>
+                    <input type="radio" name="payment_type" id="payment_slave"> <label for="payment_slave">Картошка</label></td>
+            </tr>
+            <tr>
+                <td><span class="labelname">Время доставки вареников:</span></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><span class="labelname">Опции:</span></td>
+                <td style="text-align: left; padding-left: 20%;"><input type="checkbox" id="add_universeburger"><label for="add_universeburger">Лёша Леонец в подарок</label> <br>
+                    <input type="checkbox" id="add_universeanime"><label for="add_universeanime">Аниме девочка в комплекте</label></td>
+            </tr>
+            <td style="padding-left: 45%;">
+                <input type="submit">
+            </td>
+        </table>
+    
+    </form>
+</body>
+</html>

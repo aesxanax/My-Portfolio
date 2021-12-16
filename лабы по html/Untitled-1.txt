@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="utf-8">
+<title>Блочная модель</title>
+<style>
+div{
+display:in-line block;
+border: 10px;
+width:100px;
+height:100px;
+padding:10px;
+padding-top:10px;
+}
+.first{
+  border-style: outset;
+  border-color:
+}
+</head>
+<body>
+display:in-line block;
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+    background: url(bg-1.jfif);
+    background-size: 110%;
+    background-attachment: fixed;
+}
+.tasks{
+    background-color:rgba(238, 165, 226, 0.918);
+    width: 50%;
+    padding: 10px;
+    border: 10px dashed rgba(209, 127, 172, 0.836);
+}
+input{
+    font-family: 'Old Standard TT Italic';
+    background-color:rgb(87, 238, 238);
+    border-color:rgb(236, 169, 250);
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+}
+input:hover{
+    background-color: rgb(255, 152, 238);
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    background-color: rgba(18, 244, 252, 0.856);
+    width: 50%;
+    padding: 5px;
+    border: 2px solid rgb(253, 53, 253);
+}
+h1{
+    padding-bottom: 10px;
+    font-family:'Times New Roman';
+}
+hr{
+    color: black;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}

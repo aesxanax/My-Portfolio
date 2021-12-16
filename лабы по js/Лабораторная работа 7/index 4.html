@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Задание 4</title>
+    <script>
+        function fun1() {
+            let allRadio = document.getElementsByClassName("one");
+            let selRadio = [];
+            for (let i = 0; i < allRadio.length; i++) {
+                if (allRadio[i].checked) {
+                   document.getElementById("container").innerHTML += "<li>" + allRadio[i].value + "</li>";
+                 }
+             }
+         }
+     </script>
+    <style>
+        .forCheckbox label {
+            width: 60px;
+            font-weight: bold;
+        }
+        body {
+            background-image: url("back2.jpg");
+            background-size: 100%;
+        }
+    </style>
+</head>
+<body>
+<form>
+<h2>Что такое функция?</h2>
+<p class="forCheckbox">
+    <input type="radio" class="one" name="forName1" value="1)Еда - неправильный ответ"><label>1)Еда</label>
+    <input type="radio" class="one" name="forName1" value="2)Объект - правильный ответ"><label>2)Объект</label>
+    <input type="radio" class="one" name="forName1" value="3)Что-то из химии - неправильный ответ"><label>3)Что-то из химии</label>
+    <input type="radio" class="one" name="forName1" value="4)Кто я? - неправильный ответ"><label>4)Кто я?</label>
+</p>
+<h2>Как правильно пить текилу?</h2>
+<p>
+    <input type="radio" class="one" name="forName2" value="1)Слизать соль,выпить,а после скушать лимон - правильный ответ"><label>1)Слизать соль,выпить,а после скушать лимон</label>
+    <input type="radio" class="one" name="forName2" value="2)Просто выпить - неправильный ответ"><label>2)Просто выпить</label>
+    <input type="radio" class="one" name="forName2" value="3)Я вообще считаю что алкоголь это плохо-неправильный ответ"><label>3)Я вообще считаю что алкоголь это плохо</label>
+</p>
+<h2>Кис кис кис кис?</h2>
+<p>
+    <input type="radio" class="one" name="forName3" value="1)гав гав гав гав - неправильный ответ"><label>1)гав гав гав гав</label>
+    <input type="radio" class="one" name="forName3" value="2)хочу рыбку - неправильный ответ"><label>2)хочу рыбку</label>
+    <input type="radio" class="one" name="forName3" value="3)я котик ты котик - правильный ответ"><label>3)я котик ты котик</label>
+</p>
+</form>
+<h2>Результат: </h2>
+<input type="button" value="Нажмите, чтобы узнать результат" onclick="fun1()">
+<ul id="container"></ul>
+</body>
+</html>

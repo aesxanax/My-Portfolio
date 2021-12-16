@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Блочная модель</title>
+<style>
+div{
+display: inline-block;
+border: 10px black;
+width: 100px;
+height: 100px;
+padding: 10px;
+padding-top: 10px;
+}
+.first{
+border-style: outset;
+border-color: red;
+}
+.second{
+border-style: dashed;
+border-color: greenyellow;
+}
+.third{
+border-style: dotted;
+border-color: blue;
+}
+.fourth{
+border-style: double;
+border-color: cyan;
+}
+.fifth{
+border-style: groove;
+border-color: rgb(252, 76, 237);
+}
+.sixth{
+border-style: inset;
+border-color:yellow;
+}
+.seventh{
+border-style: solid;
+border-color: black;
+}
+div p{
+text-align: center;
+vertical-align: middle;
+font-size: 35px;
+background-color: white;
+border: 0px white;
+}
+p{
+margin: 5px;
+padding: 5px;;
+}
+.firstp{
+display:block;
+width: 400px;
+text-align: center;
+margin: auto;
+border: 2px solid #FF7F50;
+}
+.secondp{
+display:block;
+border: 5px solid red;
+border-radius: 40px/20px;
+box-shadow:inset 2px 2px 8px 8px rgba(0,0,0,.5);
+overflow: auto;
+}
+.thirdp{
+display:block;
+border: 2px solid #FF6347;
+}
+span,img,a{
+    display:inline-block;
+    border:5px solid #FF4500;
+    padding:5px;
+    background:#FFA500;
+}
+</style>
+</head>
+<body>
+<div class="first"><p>R</p></div>
+<div class="second"><p>G</p></div>
+<div class="third"><p>B</p></div>
+<div class="fourth"><p>C</p></div>
+<div class="fifth"><p>M</p></div>
+<div class="sixth"><p>Y</p></div>
+<div class="seventh"><p>K</p></div>
+<p class="firstp"><img src="wow.jpg" width=350px></p>
+<p class="secondp"> Подпишитесь здесь<a href="http://www.instagram.com/aesxanax"> красота</a></p>
+<p class="thirdp">Дорогой<span> Евгений Валерьевич</span> поставьте плиз лабу без вопросов!</p>
+</body>
+</html>
